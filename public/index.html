@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+   integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
+
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script> 
+
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+
+<! -- TOP SECTION -- >
+
+<div class="container"></div>
+
+      <div class="jumbotron">
+      <br><h3 class="header">NerdScraper</h3>
+      <h4 class="lead">Gettin all teh articles</h4>
+      <br>
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Start Scraping!</button>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">NerdScraper Says : </h4>
+            </div>
+            <div class="modal-body">
+              <p>This will scrape in new articles. Are you sure?</p>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-primary" href="/scrape" role="button">Scrape em!</a>
+                <a class="btn btn-primary" href="/" role="button">Wait</a>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+
+      </div>
+
+
+      <! -- Dynamic Section -- >
+
+      <br>
+      <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">    
+      <div id="articles"></div>
+      </div>
+       
+      <div class="col-sm-4"></div>
+      </div></div>
+      
+     
+        <! -- Notes -- >
+
+        <br>
+        <div class="row">
+        <div class="col-sm-4"></div>
+       
+        <div class="col-sm-4">    
+        <div id="notes"></div>
+        </div>
+         
+        <div class="col-sm-4"></div>
+        </div><br>
+   
+      </div>
+
+     <! -- BOTTOM SECTION -- >
+
+    <footer class="page-footer font-small teal pt-4">
+    <div class="container-fluid text-center text-md-left">
+    <div class="row">
+  
+        
+            <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase font-weight-bold">NerdScrape : </h5>
+            <p>'Don't be hatin when you can be scrapin' Don't have the time to catch all of your favorite tech articles? Nerdscrape - My friend.</p>
+  
+        
+     
+  
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3"></div>
+
+            <p>Leave notes, Mark your favorites, and share.</p>
+  
+          </div>
+          </div></div>
+   
+    </footer>
+    <!-- Footer -->
+    <script src="assets/app.js"></script>
+  </body>
+</html>
