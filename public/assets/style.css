@@ -8,12 +8,20 @@
     height: 100%; 
 
     /* Center and scale the image nicely */
-    background-position: center;
+    
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
-  
+
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
 }
+
+
    
 
 
@@ -22,7 +30,7 @@
 
 .jumbotron {
 
-background-color: rgb(29, 245, 162);
+background-color: transparent;
 text-align: center;
 height: 250px;
 max-width: 100%;
@@ -36,23 +44,26 @@ max-width: 100%;
 
   #articles {
     text-align: center;
-    background-color: #333;
+
     color: cornflowerblue;
     display: inline-block;
     overflow-y: scroll;
     height: 700px;
     position: relative;
+    background: rgb(34, 32, 39);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgb(68, 68, 61), rgb(34, 32, 39));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgb(45, 46, 37), rgb(34, 32, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
   #notes {
-    position: relative;
+    position: sticky;
     width: 100%;
 
   }
 
   textarea, input {
  
-    background-attachment: fixed;
     display: block;
     width: 100%;
     background-color: rgb(34, 30, 6);
@@ -70,7 +81,7 @@ max-width: 100%;
 footer {
 
   text-align: center;
-  background-color: rgb(29, 245, 162);
+  background-color:  transparent;
   color: #333;
 }
 
@@ -96,5 +107,16 @@ footer {
   background: white; 
 }
 
+h3 { color: black;}
+h4  { color: wheat;}
+h1  { color: wheat;}
+h2   { color: wheat;}
+
+p2 {
+
+  font-weight: bolder;
+  font-size: 14pt;
+  color: white;
 
 
+}
