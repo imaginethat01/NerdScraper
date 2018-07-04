@@ -55,7 +55,9 @@ max-width: 100%;
     background: rgb(34, 32, 39);  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, rgb(68, 68, 61), rgb(34, 32, 39));  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, rgb(45, 46, 37), rgb(34, 32, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+border-spacing: 12px;
+padding: 15px;
+border-radius: 20px;
   }
 
   #notes {
@@ -65,9 +67,9 @@ background: linear-gradient(to right, rgb(45, 46, 37), rgb(34, 32, 39)); /* W3C,
   }
 
   textarea, input {
-
+    border-radius: 15px;
     border-spacing: 12px;
-    padding: 15px;
+    padding: 20px;
     min-width: 100%;
     max-width: 100%;
     display: block;
