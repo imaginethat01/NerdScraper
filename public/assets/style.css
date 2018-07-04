@@ -45,11 +45,13 @@ max-width: 100%;
   #articles {
     text-align: center;
 
+    max-width: 100%;
     color: cornflowerblue;
-    display: inline-block;
+
     overflow-y: scroll;
     height: 700px;
     position: relative;
+
     background: rgb(34, 32, 39);  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, rgb(68, 68, 61), rgb(34, 32, 39));  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, rgb(45, 46, 37), rgb(34, 32, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -57,26 +59,33 @@ background: linear-gradient(to right, rgb(45, 46, 37), rgb(34, 32, 39)); /* W3C,
   }
 
   #notes {
-    position: sticky;
-    width: 100%;
+  text-align: center;
+    
 
   }
 
   textarea, input {
- 
+
+    border-spacing: 12px;
+    padding: 15px;
+    min-width: 100%;
+    max-width: 100%;
     display: block;
-    width: 100%;
     background-color: rgb(34, 30, 6);
     color:  white;
   }
+
+
+
   input {
     height: 36px;
     font-size: 24px;
   }
   textarea {
-    height: 200px;
+    display:block;
+    background-attachment: fixed;
     font-size: 18px;
-  }
+    position: sticky; }
 
 footer {
 
@@ -111,12 +120,19 @@ h3 { color: black;}
 h4  { color: wheat;}
 h1  { color: wheat;}
 h2   { color: wheat;}
+h5  { color: wheat;}
 
 p2 {
 
   font-weight: bolder;
   font-size: 14pt;
   color: white;
+}
+
+  .btn-info {
+
+  width: 220px;  
+    text-align: center;
 
 
 }
